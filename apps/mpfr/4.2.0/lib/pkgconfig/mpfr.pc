@@ -1,0 +1,11 @@
+prefix=/mnt/beegfs/skempasa/kaust/spack/opt/spack/linux-rocky8-zen4/gcc-12.1.0/mpfr-4.2.0-gsql4h4qwkyvr7eg3atpevjepcm7uooa
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mpfr
+URL: https://www.mpfr.org/
+Description: C library for multiple-precision floating-point computations
+Version: 4.2.0
+Libs: -L${libdir} -lmpfr -lgmp
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/mnt/beegfs/skempasa/kaust/spack/opt/spack/linux-rocky8-zen4/gcc-12.1.0/gmp-6.2.1-3axpfzi7bj3j5ynri6ukpqsnv77222z6
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: GNU MP
+Description: GNU Multiple Precision Arithmetic Library
+URL: https://gmplib.org
+Version: 6.2.1
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgmp

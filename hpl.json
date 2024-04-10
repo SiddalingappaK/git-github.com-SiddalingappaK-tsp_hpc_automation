@@ -1,0 +1,14 @@
+{
+	"app": "hpl",
+	"--hpl_version": "2.3",
+	"--hpl_compiler": "aocc",
+	"--hpl_compiler_version": "4.0.0",
+	"--hpl_math": "aocl",
+	"--hpl_math_version": "4.0",
+	"--hpl_math_compiler": "aocc",
+	"--hpl_math_compiler_version": "4.0.0",
+	"--hpl_mpi": "openmpi",
+	"--hpl_mpi_version": "4.1.4",
+	"--hpl_mpi_compiler": "aocc",
+	"--hpl_mpi_compiler_version": "4.0.0"
+}
